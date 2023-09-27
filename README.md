@@ -4,8 +4,11 @@
 
 ### How to Use 🤔
 
-1. Create a [new secret](../../settings/secrets/actions/new) named `GH_TOKEN` and add your [personal access token](https://github.com/settings/tokens/new?description=github-fresh-commiter&scopes=repo) as its value.
-2. Copy the [fresh-commit.yml](./.github/workflows/fresh-commit.yml) and save it in your `.github/workflows` folder.
+> **Warning**
+> Commits before the latest commit will be deleted which will make the last commit as the first initial commit.
+
+1. Copy the [fresh-commit.yml](./.github/workflows/fresh-commit.yml) and save it in your `.github/workflows` folder.
+2. Go to [Actions](../../actions/workflows/fresh-commit.yml) then find and smash the <kbd> Run workflow </kbd>.
 
 ### Result 🎉
 
