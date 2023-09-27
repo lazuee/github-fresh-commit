@@ -1,0 +1,22 @@
+name: github-fresh-commit
+description: A Github fresh committer that allows you to start your repository to its initial state
+author: lazuee
+
+inputs:
+    github_token:
+        description: "GitHub token"
+        required: false
+    branch:
+        description: "Destination branch to fresh commit"
+        required: false
+    commit_message:
+        description: "Message to your fresh commit"
+        required: false
+
+runs:
+    using: "node20"
+    main: "dist/index.js"
+
+branding:
+    icon: "activity"
+    color: "green"
